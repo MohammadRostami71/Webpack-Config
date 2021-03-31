@@ -1,0 +1,15 @@
+-> npm init
+-> npm install --save-dev webpack webpack-dev-server
+-> npm install --save-dev webpack-cli
+# create webpack.config.js
+# Adding File Rules & Babel
+-> npm install --save-dev @babel/core @babel/preset-env @babel/preset-react @babel/preset-stage-2 ba
+bel-loader @babel/plugin-proposal-class-properties
+# Loading CSS Files
+-> npm install --save-dev style-loader css-loader
+-> npm install --save-dev postcss-loader
+-> npm install --save-dev autoprefixer
+# Loading Images & Injecting into HTML Page
+-> npm install --save-dev url-loader
+-> npm install --save-dev html-webpack-plugin
+-> npm install --save-dev file-loader
